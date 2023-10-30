@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- title -->
+    <title>Bookshelf Apps - Hafiz Aryan Siregar</title>
+
+    <!-- title icon -->
+    <link rel="icon" href="assets/img/title-icon.png" type="image/icon type" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Icon from bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body>
+    <!-- start header -->
+    <header class="head_bar">
+      <h1 class="head_bar__title">Bookshelf Apps</h1>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+      <!-- start search -->
+      <section class="search_section">
+        <form id="searchBook">
+          <div class="search">
+            <input id="searchBookTitle" type="text" placeholder="Search" />
+            <button id="searchSubmit" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+          <div class="add">
+            <button id="addBook">
+              <i class="bi bi-plus-lg"></i><span>Tambah Buku</span>
+            </button>
+          </div>
+        </form>
+      </section>
+      <!-- end search -->
+
+      <!-- start form add book -->
+      <section id="formBook">
+        <div class="input_section">
+          <div class="title-input">
+            <h2>Tambah Buku Baru</h2>
+            <span id="close"><i class="bi bi-x-circle-fill"></i></span>
+          </div>
+          <form id="inputBook">
+            <div class="input">
+              <input
+                id="inputBookTitle"
+                class="required"
+                type="text"
+                placeholder="Judul"
+                required
+              />
+            </div>
+            <div class="input">
+              <input
+                id="inputBookAuthor"
+                class="required"
+                type="text"
+                placeholder="Penulis"
+                required
+              />
+            </div>
+            <div class="input">
+              <input
+                id="inputBookYear"
+                class="required"
+                type="number"
+                placeholder="Tahun"
+                required
+              />
+            </div>
+            <div class="input">
+              <input
+                id="inputBookCategory"
+                class="required"
+                type="text"
+                placeholder="Kategori"
+                required
+              />
+            </div>
+            <div class="input_inline">
+              <input id="inputBookIsComplete" type="checkbox" />
+              <label for="inputBookIsComplete">Selesai Dibaca</label>
+            </div>
+            <button id="bookSubmit" type="submit">Tambah Buku</button>
+          </form>
+        </div>
+      </section>
+      <!-- end form add book -->
+      <!-- start show book -->
+      <section class="showBook">
+        <!-- start unfinished book -->
+        <section class="book_shelf">
+          <h2>Belum Dibaca</h2>
+          <div id="incompleteBookshelfList" class="book_list"></div>
+        </section>
+        <!-- end unfinished book -->
+
+        <!-- start finished book -->
+        <section class="book_shelf">
+          <h2>Selesai Dibaca</h2>
+          <div id="completeBookshelfList" class="book_list"></div>
+        </section>
+        <!-- end finished book -->
+      </section>
+      <!-- end show book -->
+    </main>
+    <!-- end main -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
