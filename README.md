@@ -58,10 +58,6 @@ Total jam yang dibutuhkan untuk menyelesaikan kelas ini, mulai dari persiapan ke
 
 1. Clone this repository
    
-   `git clone https://github.com/Ardywsptr/Bookshelf_Submission-Belajar-Membuat-Front-End-Web-Untuk-Pemula/.git`
-
-    `cd Bookshelf_Submission-Belajar-Membuat-Front-End-Web-Untuk-Pemula`
-   
 2. Hapus cache pada browser
 
 3. jalankan file index.html
@@ -79,11 +75,8 @@ Repositori ini adalah submission dari Dicoding untuk kelas Belajar Membuat Front
 > - Kode yang didapatkan dari sumber lain (website, buku, forum, GitHub, dan lain-lain) hanya digunakan sebagai referensi. Tingkat kesamaannya tidak boleh lebih dari 70%.
 
 <br clear="both">
-<br clear="both">
 
-> Jika ada pertanyaan atau issue, kunjungi [new issue](https://github.com/Ardywsptr/AWSMovies_Submission-Fundamental-Front-End-Web-Developer/issues/new)
->
->Jika dokumentasi ini bermanfaat mari berteman dengan menekan tombol follow pada [profile](https://github.com/Ardywsptr) ini ☺☺☺
+>Jika dokumentasi ini bermanfaat mari berteman dengan menekan tombol follow pada [profile](https://github.com/hafizaryan) ini ☺☺☺
 
 <br clear="both">
 
