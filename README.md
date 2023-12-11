@@ -2,21 +2,6 @@
 
 **Aplikasi To Do** - Bookshelf merupakan aplikasi yang dapat menyimpan data buku, aplikasi ini menggunakan penyimpanan berbasis web storage (local storage). Dibuat untuk memenuhi syarat kelulusan kelas [Belajar Membuat Front-End Web untuk Pemula](https://www.dicoding.com/academies/315) di Dicoding Academy
 
-![Author](https://img.shields.io/badge/made%20by-Ardywsptr-blue)
-![GitHub followers](https://img.shields.io/github/followers/Ardywsptr?style=social)
-![GitHub watches](https://img.shields.io/github/stars/Ardywsptr/Bookshelf_Submission-Belajar-Membuat-Front-End-Web-Untuk-Pemula-3?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/Ardywsptr/Bookshelf_Submission-Belajar-Membuat-Front-End-Web-Untuk-Pemula)
-
-<br clear="both">
-
-## User Interface ✨
-
-<div align="center">
-<img src="https://i.postimg.cc/G2YNhPzb/New-Website-Blue-Mockup-Instagram-Laptop.png" alt"AWSResto" width="800">
-</div>
-
-<br clear="both">
-
 ## Deskripsi Kelas 🚀
 
 Belajar Membuat Front-End Web untuk Pemula <br>
